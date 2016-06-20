@@ -1,0 +1,17 @@
+{
+  "name": "playground-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-01-scope.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-expect": "^2.0.2",
+    "jasmine-spec-reporter": "^2.5.0"
+  },
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "Lorenzo Franceschini",
+  "license": "MIT"
+}
