@@ -9,6 +9,10 @@
     "jasmine-expect": "^2.0.2",
     "jasmine-spec-reporter": "^2.5.0"
   },
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/Law78/playground_es6"
+  },
   "scripts": {
     "test": "node index"
   },
