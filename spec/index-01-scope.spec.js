@@ -14,25 +14,36 @@ describe('Primo Esempio', () => {
 });
 
 describe('Secondo Esempio', () => {
-  it('il valore di a non è 10 il valore di b è 10', () => {
-    expect(a).not.toBe(10);
-    expect(b).toBe(10);
-    expect(a).not.toBe(b);
+  it('il valore di es2_a non è 10 il valore di es2_b è 10', () => {
+    expect(es2_a).not.toBe(10);
+    expect(es2_b).toBe(10);
+    expect(es2_a).not.toBe(es2_b);
   });
 });
 
 describe('Terzo Esempio', () => {
-  it('la somma di i + j non è 2', () => {
-    expect((i + j)).not.toBe(2);
-    expect(window.i).toBe(10);
+  it('la somma di es3_i + es3_j non è 2', () => {
+    expect((es3_i + es3_j)).not.toBe(2);
+    expect(window.es3_i).toBe(10);
   });
 });
 
 describe('Quarto Esempio', () => {
   beforeEach(() => {
-    va = example4();
+    es4_a = example4();
   });
-  it('va è pari a 10', () => {
-    expect(va).toBe(10);
+  it('es4_a è pari a 10', () => {
+    expect(es4_a).toBe(10);
+  });
+});
+
+describe('Quinto Esempio', () => {
+  beforeEach(() => {
+    es5_a_example5 = example5();
+  });
+  it(`la es5_a del global scope rimane pari a 10,
+      mentre la es5_a di example5 verrà modificata in 30`,() => {
+    expect(es5_a).toBe(10);
+    expect(es5_a_example5).toBe(30);
   });
 });
