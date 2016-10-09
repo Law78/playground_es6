@@ -285,7 +285,7 @@ function example13_b(){
 /********** Esempio 14 **********/
 // Lexical/Static Scope (I bound sono a COMPILE TIME) vs Dynamic Scope
 // Vediamo questo esempio: js non sa quando e dove chiamerò example14_a per questo
-// la a è bounded alla variabile a globale
+// la a è bounded alla variabile a
 
 function example14_a(){
   // la a è bound alla a globale in compile time
